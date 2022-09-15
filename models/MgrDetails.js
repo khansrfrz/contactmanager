@@ -12,7 +12,7 @@ const MgrDetails=mongoose.model('MgrDetails',{
 
 
 //create or insert details
-/*
+/* 
 const mgr= new MgrDetails({
     id:"1",
     fname:"walter",

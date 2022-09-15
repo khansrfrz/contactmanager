@@ -2,7 +2,7 @@ const express=require('express')
 const router=express.Router()
 const MgrDetails=require('../models/MgrDetails')
 
-
+ 
 router.post('/create',async(req,res)=>{
     let data = req.body
     const mgr = new MgrDetails({
